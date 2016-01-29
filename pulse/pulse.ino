@@ -25,7 +25,7 @@ void loop() {
     for(int i=0; i<N_LED; i++)
       strip.setPixelColor(i, color);
     strip.show();
-    delay(30);
+    delay(10);
   }
 
 }
